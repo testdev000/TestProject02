@@ -25,7 +25,7 @@ namespace TestProject02
         public void SeleniumNavigationTest()
         {
             driver.Navigate().GoToUrl("https://www.selenium.dev"); 
-            Assert.That(driver.Title, Is.EqualTo("SeleniumFailed"));
+            Assert.That(driver.Title, Is.EqualTo("SeleniumFailed001"));
             Console.WriteLine("Hello, world! The page title is: " + driver.Title);
         }
 
